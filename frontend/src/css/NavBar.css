@@ -1,0 +1,18 @@
+.navbar__link, .navbar__link:hover {
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: ivory;
+}
+
+.navbar__link:hover {
+  color: lightgray;
+}
+
+.navbar__link--active {
+  color: darkorange;
+}
+
+.navbar__link--active:hover {
+  color: burlywood;
+}
