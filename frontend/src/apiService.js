@@ -1,4 +1,4 @@
-const BASE_URL = "http://cattube-env.eba-wbpixdq6.us-east-1.elasticbeanstalk.com";
+const BASE_URL = "https://cattube-env.eba-wbpixdq6.us-east-1.elasticbeanstalk.com";
 
 function createComment(videoId, userId, comment) {
   return fetch(`${BASE_URL}/addComment/`, {

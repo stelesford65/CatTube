@@ -4,7 +4,7 @@ import RegisterModal from '../components/RegisterModal';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const SERVICE_URL = "http://cattube-env.eba-wbpixdq6.us-east-1.elasticbeanstalk.com/"
+const SERVICE_URL = "https://cattube-env.eba-wbpixdq6.us-east-1.elasticbeanstalk.com/"
 
 class RegisterPage extends React.Component {
 
