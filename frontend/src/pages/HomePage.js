@@ -2,6 +2,8 @@ import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Carousel } from "react-bootstrap";
 import meowtube from "../images/Cat_TextRight.jpg";
+import react_pic from "../images/react.jpg";
+import cat_with_mask from "../images/catmask.jpg";
 
 function HomePage() {
   return (
@@ -11,7 +13,7 @@ function HomePage() {
         <img
           className="d-block w-100"
           src={meowtube}
-          style={{width:800, height: 650}}
+          style={{width:500, height: 650}}
         />
         <Carousel.Caption>
           <h3>Welcome to MeowTube!</h3>
@@ -21,21 +23,23 @@ function HomePage() {
       <Carousel.Item interval={10000}>
         <img
           className="w-100"
-          src="https://via.placeholder.com/1280x650/000000.png"
+          src={react_pic}
+          style={{width:500, height: 650}}
         />
         <Carousel.Caption>
-          <h3>Join MeowTube today!</h3>
-          <p>It's free, and users can leave comments</p>
+          <h3></h3>
+          <p>Done with React</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={10000}>
         <img
           className="d-block w-100"
-          src="https://via.placeholder.com/1280x650/000000.png"
+          src={cat_with_mask}
+          style={{width:500, height: 650}}
         />
         <Carousel.Caption>
-          <h3>Slide label</h3>
-          <p>Details</p>
+          <h3>Get started today!</h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
